@@ -8,9 +8,7 @@ function validate(){
     if(dd.value === '' || mm === '' || yy === '' ){
         alert("Please complete the form")
     }
-    else{
-        alert("Welcome");
-    }
+    
     
    
 }
