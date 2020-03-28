@@ -41,7 +41,7 @@
 
  .info{
   margin-top: 10%;
-  padding-left: 35%;
+  padding-left: 30%;
   padding-top: 4%;
   padding-bottom: 4%;
   border-top: 2px dotted rgb(231, 230, 169);
@@ -52,4 +52,16 @@
   color: white;
 }
 
+input[type=text], select {
+  padding: 4px;
+  border-radius: 7px;
+  background-color:  rgba(212, 226, 236, 0.411);
+}
 
+.button2 {
+  background-color: rgba(100, 194, 201, 0.671);
+  border-radius: 4px;
+  padding: 15px 32px;
+  color: beige;
+  cursor: pointer;
+}
