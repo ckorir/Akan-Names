@@ -1,4 +1,33 @@
 <!DOCTYPE html>
 <html>
-    <h1>hello</h1>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width">
+    <title>calculate</title>
+    <link href="css/styles.css" rel="stylesheet" type="text/css" />
+  </head>
+  <style>
+    body{
+    background: linear-gradient(rgba(0,0,0,0.7),rgba(0,0,0,0.7)),url('images/bl.jpg') ;
+    
+  }
+  </style>
+  <body>
+    <div class ="info">
+     <h3>Fill in your details</h3>
+      <form action="/action_page.php">
+        <label for="dob">Day of the month:</label><br>
+        <input type="text" id="dob" name="month" style="width: 40%;"><br><br>
+        <label for="month">Month of the year:</label><br>
+        <input type="text" id="month" name="month" style="width: 40%;"><br><br>
+        <label for="month">Year of birth:</label><br>
+        <input type="text" id="year" name="year" style="width: 40%;"><br><br>
+        <label for="month">Your gender:</label><br>
+        <input id="op1" name="box1" type="radio">Male</input></br>
+        <input id="op2" name="box1" type="radio">Female</input><br></br>
+        <button onclick="result()" id="button1">Submit</button> 
+      </form> 
+    </div>
+    <script src="kan.js"></script>
+  </body>
 </html>

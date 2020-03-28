@@ -17,7 +17,8 @@
     padding-right: 30px;
     display: inline-block;
     align-content: center;
-    margin-left: 25%;
+    margin-left: 15%;
+    margin-right: 15%;
     border-radius: 5%;
   }
   .button{
@@ -37,3 +38,18 @@
     text-decoration: none;
     color: rgb(241, 237, 237);
   }
+
+ .info{
+  margin-top: 10%;
+  padding-left: 35%;
+  padding-top: 4%;
+  padding-bottom: 4%;
+  border-top: 2px dotted rgb(231, 230, 169);
+  border-left: 2px dotted rgb(231, 230, 169);
+  border-right: 2px dotted rgb(231, 230, 169);
+  border-bottom: 2px dotted rgb(231, 230, 169);
+  border-radius: 3%;
+  color: white;
+}
+
+
