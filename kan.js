@@ -5,7 +5,11 @@ function validate(){
     var yy = document.getElementById("year").value;
     
     if(dd.value === '' || mm === '' || yy === '' ){
-        alert("Please complete the form")
+        swal({
+            title: "Error",
+            text: "You haven't filled all fields!",
+            icon: "warning",
+          });
     }
  
 }
