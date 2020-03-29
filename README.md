@@ -7,6 +7,6 @@ The languages used to program this website were:
 <li>Html</br>
 <li>Css</br>
 <li>Java Script</br>
-<p>You can access the website using this link: 
+<p>You can access the website using this link: https://ckorir.github.io/Akan-Names/
 If you have any questions you can contact: chrisruto.k@gmail.com
 <footer>Copyright (c) 2020 Chris Korir
