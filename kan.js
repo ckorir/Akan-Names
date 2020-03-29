@@ -6,6 +6,12 @@ function validate(){
     var yy = document.getElementById("year").value;
     var cc = document.getElementById("century").value;
     
+    var d = parseInt(dd);
+    var m = parseInt(mm);
+    var y = parseInt(yy);
+    var c = parseInt(cc);
+
+    
     if(dd === '' || mm === '' || yy === '' || cc == ''){
         swal({
             title: "Error",
