@@ -1,8 +1,9 @@
 
+
 function validate(){
-    var dd = document.getElementById("dob").value;
-    var mm = document.getElementById("month").value;
-    var yy = document.getElementById("year").value;
+    var dd = parseInt(document.getElementById("dob").value);
+    var mm = parseInt(document.getElementById("month").value);
+    var yy = parseInt(document.getElementById("year").value);
     
     if(dd.value === '' || mm === '' || yy === '' ){
         swal({
@@ -11,5 +12,8 @@ function validate(){
             icon: "warning",
           });
     }
- 
+      
+    else{
+        alert(dd +5);
+    }
 }

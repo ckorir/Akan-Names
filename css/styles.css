@@ -66,3 +66,7 @@ input[type=text], select {
   color: rgb(255, 255, 245);
   cursor: pointer;
 }
+
+.button2:hover{
+background-color: rgba(234, 240, 151, 0.678);
+}
