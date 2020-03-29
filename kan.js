@@ -12,6 +12,7 @@ function validate(){
     var c = parseInt(cc);
 
     var math = (( (c/4) -2*c-1) + ((5*y/4) ) + ((26*(m+1)/10)) + d)%7;
+    var exact = Math.round(math);
 
     if(dd === '' || mm === '' || yy === '' || cc == ''){
         swal({
@@ -22,6 +23,6 @@ function validate(){
     }
       
     else{
-        alert(math);
+        alert(exact);
     }
 }
