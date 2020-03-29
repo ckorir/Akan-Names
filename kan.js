@@ -5,8 +5,6 @@ function validate(){
     var mm = document.getElementById("month").value;
     var yy = document.getElementById("year").value;
     var cc = document.getElementById("century").value;
-    var male = document.getElementById("op1").value;
-    var female = document.getElementById("op2").value;
     
     var d = parseInt(dd);
     var m = parseInt(mm);
