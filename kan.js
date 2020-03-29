@@ -19,6 +19,24 @@ function validate(){
     if(exact === 1 && op1.checked === true){
         alert("Your Akan name is Kwasi")
     }
+    if(exact === 2 && op1.checked === true){
+        alert("Your Akan name is Kwadwo")
+    }
+    if(exact === 3 && op1.checked === true){
+        alert("Your Akan name is Kwabena")
+    }
+    if(exact === 4 && op1.checked === true){
+        alert("Your Akan name is Kwaku")
+    }
+    if(exact === 5 && op1.checked === true){
+        alert("Your Akan name is Yaw")
+    }
+    if(exact === 6 && op1.checked === true){
+        alert("Your Akan name is Kofi")
+    }
+    if(exact === 7 && op1.checked === true){
+        alert("Your Akan name is Kwame")
+    }
 
     if(dd === '' || mm === '' || yy === '' || cc == ''){
         swal({
