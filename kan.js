@@ -38,6 +38,28 @@ function validate(){
         alert("Your Akan name is Kwame")
     }
 
+    if(exact === 1 && op2.checked === true){
+        alert("Your Akan name is Akosua")
+    }
+    if(exact === 2 && op2.checked === true){
+        alert("Your Akan name is Adwoa")
+    }
+    if(exact === 3 && op2.checked === true){
+        alert("Your Akan name is Abenaa")
+    }
+    if(exact === 4 && op2.checked === true){
+        alert("Your Akan name is Akua")
+    }
+    if(exact === 5 && op2.checked === true){
+        alert("Your Akan name is Yaa")
+    }
+    if(exact === 6 && op2.checked === true){
+        alert("Your Akan name is Afua")
+    }
+    if(exact === 7 && op2.checked === true){
+        alert("Your Akan name is Ama")
+    }
+
     if(dd === '' || mm === '' || yy === '' || cc == ''){
         swal({
             title: "Error",
