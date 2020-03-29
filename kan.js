@@ -17,47 +17,47 @@ function validate(){
     var exact = Math.round(math);
 
     if(exact === 1 && op1.checked === true){
-        alert("Your Akan name is Kwasi")
+        swal("Your Akan name is", "Kwasi");
     }
     if(exact === 2 && op1.checked === true){
-        alert("Your Akan name is Kwadwo")
+        swal("Your Akan name is", "Kwadwo");
     }
     if(exact === 3 && op1.checked === true){
-        alert("Your Akan name is Kwabena")
+        swal("Your Akan name is", "Kwabena");
     }
     if(exact === 4 && op1.checked === true){
-        alert("Your Akan name is Kwaku")
+        swal("Your Akan name is", "Kwaku");
     }
     if(exact === 5 && op1.checked === true){
-        alert("Your Akan name is Yaw")
+        swal("Your Akan name is", "Yaw");
     }
     if(exact === 6 && op1.checked === true){
-        alert("Your Akan name is Kofi")
+        swal("Your Akan name is", "Kofi");
     }
     if(exact === 7 && op1.checked === true){
-        alert("Your Akan name is Kwame")
+        swal("Your Akan name is", "Kwame");
     }
 
     if(exact === 1 && op2.checked === true){
-        alert("Your Akan name is Akosua")
+        swal("Your Akan name is", "Akosua");
     }
     if(exact === 2 && op2.checked === true){
-        alert("Your Akan name is Adwoa")
+        swal("Your Akan name is", "Adwoa");
     }
     if(exact === 3 && op2.checked === true){
-        alert("Your Akan name is Abenaa")
+        swal("Your Akan name is", "Abenaa");
     }
     if(exact === 4 && op2.checked === true){
-        alert("Your Akan name is Akua")
+        swal("Your Akan name is", "Akua");
     }
     if(exact === 5 && op2.checked === true){
-        alert("Your Akan name is Yaa")
+        swal("Your Akan name is", "Yaa");
     }
     if(exact === 6 && op2.checked === true){
-        alert("Your Akan name is Afua")
+        swal("Your Akan name is", "Afua");
     }
     if(exact === 7 && op2.checked === true){
-        alert("Your Akan name is Ama")
+        swal("Your Akan name is", "Ama");
     }
 
     if(dd === '' || mm === '' || yy === '' || cc == ''){
@@ -66,13 +66,21 @@ function validate(){
             text: "You haven't filled all fields!",
             icon: "warning",
           });
-    }if(dd <=0 || dd>31){
-        alert("You've entered an invalid day");
     }
-    if(mm <=0 || mm>12){
-        alert("You've entered an invalid month");
+   
+    else if(dd <=0 || dd>31){
+        swal({
+            title: "Error",
+            text: "You haven't entered an invalid date!",
+            icon: "warning",
+          });
     }
-      
-    
+    else if(mm <=0 || mm>12){
+        swal({
+            title: "Error",
+            text: "You haven't entered an invalid month!",
+            icon: "warning",
+          });
+    }
 
 }
