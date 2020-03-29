@@ -11,7 +11,8 @@ function validate(){
     var y = parseInt(yy);
     var c = parseInt(cc);
 
-    
+    var math = (( (c/4) -2*c-1) + ((5*y/4) ) + ((26*(m+1)/10)) + d)%7;
+
     if(dd === '' || mm === '' || yy === '' || cc == ''){
         swal({
             title: "Error",
@@ -21,6 +22,6 @@ function validate(){
     }
       
     else{
-        alert(dd +5);
+        alert(math);
     }
 }
