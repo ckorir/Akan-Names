@@ -66,6 +66,11 @@ function validate(){
             text: "You haven't filled all fields!",
             icon: "warning",
           });
+    }if(dd <=0 || dd>31){
+        alert("You've entered an invalid day");
+    }
+    if(mm <=0 || mm>12){
+        alert("You've entered an invalid month");
     }
       
     
