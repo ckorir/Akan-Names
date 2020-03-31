@@ -53,7 +53,7 @@
   color: white;
 }
 
-input[type=text], select {
+input[type=number], select {
   padding: 4px;
   border-radius: 7px;
   background-color:  rgba(212, 226, 236, 0.411);
@@ -68,5 +68,5 @@ input[type=text], select {
 }
 
 .button2:hover{
-background-color: rgba(234, 240, 151, 0.678);
+  box-shadow: 0 16px 26px 0 rgba(0,0,0,0.24),0 17px 50px 0 rgba(0,0,0,0.19);
 }
