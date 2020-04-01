@@ -32,7 +32,7 @@ function validate(){
     if(exact === 6 && op1.checked === true){
         swal("Your Akan name is", "Kofi");
     }
-    if(exact === 7 && op1.checked === true){
+    if(exact === 0 && op1.checked === true){
         swal("Your Akan name is", "Kwame");
     }
 
@@ -54,7 +54,7 @@ function validate(){
     if(exact === 6 && op2.checked === true){
         swal("Your Akan name is", "Afua");
     }
-    if(exact === 7 && op2.checked === true){
+    if(exact === 0 && op2.checked === true){
         swal("Your Akan name is", "Ama");
     }
 
