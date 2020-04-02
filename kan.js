@@ -81,4 +81,5 @@ function validate(){
           });
     }
 
+    event.preventDefault();
 }
