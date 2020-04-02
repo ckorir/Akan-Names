@@ -1,5 +1,3 @@
-
-
 function validate(){
     var dd = document.getElementById("dob").value;
     var mm = document.getElementById("month").value;
@@ -80,6 +78,21 @@ function validate(){
             icon: "warning",
           });
     }
+    else if( yy <1000 ){
+        swal({
+            title: "Error",
+            text: "You haven't entered an invalid year!",
+            icon: "warning",
+          });
+    }
+    else if( cc > 99 || cc < 10){
+        swal({
+            title: "Error",
+            text: "You haven't entered an invalid Century!",
+            icon: "warning",
+          });
+    }
+
 
     event.preventDefault();
 }
