@@ -13,47 +13,47 @@ function validate(){
     var exact = Math.round(math);
 
     if(exact === 1 && op1.checked === true){
-        swal("Your Akan name is", "Kwasi");
+        swal("Your Akan name is", "Kwasi meaning you were born on a Sunday");
     }
     if(exact === 2 && op1.checked === true){
-        swal("Your Akan name is", "Kwadwo");
+        swal("Your Akan name is", "Kwadwo meaning you were born on a Monday");
     }
     if(exact === 3 && op1.checked === true){
-        swal("Your Akan name is", "Kwabena");
+        swal("Your Akan name is", "Kwabena meaning you were born on a Tuesday");
     }
     if(exact === 4 && op1.checked === true){
-        swal("Your Akan name is", "Kwaku");
+        swal("Your Akan name is", "Kwaku meaning you were born on a Wednesday");
     }
     if(exact === 5 && op1.checked === true){
-        swal("Your Akan name is", "Yaw");
+        swal("Your Akan name is", "Yaw meaning you were born on a Thursday");
     }
     if(exact === 6 && op1.checked === true){
-        swal("Your Akan name is", "Kofi");
+        swal("Your Akan name is", "Kofi meaning you were born on a Friday");
     }
     if(exact === 0 && op1.checked === true){
-        swal("Your Akan name is", "Kwame");
+        swal("Your Akan name is", "Kwame meaning you were born on a Saturday");
     }
 
     if(exact === 1 && op2.checked === true){
-        swal("Your Akan name is", "Akosua");
+        swal("Your Akan name is", "Akosua meaning you were born on a Sunday");
     }
     if(exact === 2 && op2.checked === true){
-        swal("Your Akan name is", "Adwoa");
+        swal("Your Akan name is", "Adwoa meaning you were born on a Monday");
     }
     if(exact === 3 && op2.checked === true){
-        swal("Your Akan name is", "Abenaa");
+        swal("Your Akan name is", "Abenaa meaning you were born on a Tuesday");
     }
     if(exact === 4 && op2.checked === true){
-        swal("Your Akan name is", "Akua");
+        swal("Your Akan name is", "Akua meaning you were born on a Wednesday");
     }
     if(exact === 5 && op2.checked === true){
-        swal("Your Akan name is", "Yaa");
+        swal("Your Akan name is", "Yaa meaning you were born on a Thursday");
     }
     if(exact === 6 && op2.checked === true){
-        swal("Your Akan name is", "Afua");
+        swal("Your Akan name is", "Afua Kofi meaning you were born on a Friday");
     }
     if(exact === 0 && op2.checked === true){
-        swal("Your Akan name is", "Ama");
+        swal("Your Akan name is", "Ama meaning you were born on a Saturday");
     }
 
     if(dd === '' || mm === '' || yy === '' || cc == ''){
